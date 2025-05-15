@@ -3,31 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Wear Me Shop - Affordable fashion for every style." />
-  <link rel="stylesheet" href="styles.css" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  
   <title>Wear Me Shop</title>
-
-  <!-- Link your styles.css here -->
-  <link rel="stylesheet" href="styles. css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
+    <div class="logo">Wear Me Shop</div>
     <nav>
-      <div class="logo">Wear Me Shop</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#products">Products</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <section class="hero">
-      <h1>Welcome to Wear Me Shop</h1>
-      <p>Fashion for everyone. Stylish. Comfortable. Affordable.</p>
-      <button onclick="scrollToContact()">Shop Now</button>
-    </section>
   </header>
+
+  <section class="hero">
+    <h1>Welcome to Wear Me Shop</h1>
+    <p>Fashion for everyone. Stylish. Comfortable. Affordable.</p>
+    <button>Shop Now</button>
+  </section>
 
   <main>
     <section id="about">
@@ -46,30 +41,17 @@
 
     <section id="contact">
       <h2>Contact Us</h2>
-      <form onsubmit="submitForm(event)">
-        <input type="text" placeholder="Nhean Bora" required />
-        <input type="email" placeholder="nheanbora123@gmail.com" required />
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
         <textarea placeholder="Your Message" required></textarea>
         <button type="submit">Send</button>
       </form>
-      <p class="form-status" id="form-status"></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 WearMe Shop</p>
+    <p>&copy; 2025 Wear Me Shop</p>
   </footer>
-
-  <script>
-    function scrollToContact() {
-      const contactSection = document.getElementById("contact");
-      contactSection.scrollIntoView({ behavior: "smooth" });
-    }
-
-    function submitForm(event) {
-      event.preventDefault();
-      document.getElementById("form-status").textContent = "Thank you! We'll contact you soon.";
-    }
-  </script>
 </body>
 </html>
