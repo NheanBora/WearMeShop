@@ -25,7 +25,7 @@
     </nav>
     <section class="hero">
       <h1>Welcome to Wear Me Shop</h1>
-      <p>Fashion for everyone. Stylish. Comfortable. Affordable.</p>
+      <p>Smiles With Confident.</p>
       <button onclick="scrollToContact()">Shop Now</button>
     </section>
   </header>
@@ -33,15 +33,16 @@
   <main>
     <section id="about">
       <h2>About Us</h2>
-      <p>Wear Me Shop offers trendy clothing and accessories at great prices.</p>
+      <p>The good smiles is a part of your life.</p>
     </section>
 
     <section id="products">
       <h2>Our Products</h2>
       <div class="gallery">
-        <div class="card">T-Shirt</div>
-        <div class="card">Pants</div>
-        <div class="card">Jeans</div>
+        <div class="card">Endodontics</div>
+        <div class="card">Prosthodontics</div>
+        <div class="card">Implantology</div>
+        <div class="card">Surgery</div>
       </div>
     </section>
 
